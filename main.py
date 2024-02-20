@@ -39,7 +39,9 @@ def get_e_decimals():
         return f"Result: {extended[:no_of_decimal_place+2]}"
 
 
-result = get_e_decimals()
-print(result)
+if __name__ == "__main__":
+    result = get_e_decimals()
+    print(result)
+
 
 
